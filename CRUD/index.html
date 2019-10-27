@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CRUD FUNCTIONS</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2>CREATE DATA</h2>
+            <form action="include/create.php" method="POST">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="">Email:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="email" id="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Name:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="name" id="name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Mobile No.</label>
+                        </td>
+                        <td>
+                            <input type="text" name="mobile" id="mobile">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Password</label>
+                        </td>
+                        <td>
+                            <input type="text" name="pass" id="pass">
+                        </td>
+                    </tr>
+                </table>
+                <input type="submit" class="submit" name="add" id="add" value="CREATE DATA">
+                <input type="submit" class="submit" name="read" id="read" value="READ DATA">
+                <input type="submit" class="submit" name="update" id="update" value="UPDATE DATA">
+                <input type="submit" class="submit" name="delete" id="delete" value="DELETE DATA">
+            </form>
+        </div>
+    </body>
+</html>
