@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FACEBOOK</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>facebook</h1>
+        </header>
+        <div class="container">
+            <section id="left">
+
+            </section>
+            <section id="right">
+                <h2>Create a new account</h2>
+                <h3>It's quick and easy.</h3>
+                <form action="" onsubmit="return validate()">
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="text" placeholder="First name" id="fname">
+                            </td>
+                            <td>
+                                <input type="text" placeholder="Surname" id="lname">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="" id="name" style="visibility: hidden; color: red;">Name cannot be blank!</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" placeholder="email address" id="email">
+                            </td>
+                            <td>
+                                <input type="text" placeholder="Mobile number" id="mobile">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="" id="mail" style="visibility: hidden; color: red;">Email cannot be blank!</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="password" placeholder="New password" id="password">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="" id="pass" style="visibility: hidden; color: red;">Password cannot be blank!</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="">Birthday</label>                                
+                            </td>
+                            <td>
+                                <select name="bdate" id="bdate">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                                <select name="month" id="month">
+                                    <option value="Jan">Jan</option>
+                                    <option value="Feb">Feb</option>
+                                    <option value="Mar">Mar</option>
+                                    <option value="Apr">Apr</option>
+                                    <option value="May">May</option>
+                                </select>
+                                <select name="year" id="year">
+                                    <option value="1997">1997</option>
+                                    <option value="1998">1998</option>
+                                    <option value="1999">1999</option>
+                                    <option value="2000">2000</option>
+                                    <option value="2001">2001</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="">Gender</label>
+                            </td>
+                            <td>
+                                <input type="radio" name="gender" value="male">Male
+                                <input type="radio" name="gender" value="female">Female
+                                <input type="radio" name="gender" value="other">Custom
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="" id="gender" style="visibility: hidden; color: red;">Gender must be selected</label>
+                            </td>
+                        </tr>
+                    </table>
+                    <caption>By clicking on Sign Up, you agree to our Terms, <br> Data Privacy and Cookie Policy.</caption><br>
+                    <input type="submit" value="Sign Up" id="button">
+                </form>
+            </section>
+        </div>
+    </body>
+</html>
