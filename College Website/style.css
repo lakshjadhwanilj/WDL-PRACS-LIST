@@ -1,0 +1,144 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(224, 220, 220);
+}
+
+header{
+    padding: 15px;
+    min-height: 50px;
+    border-bottom: black 2px solid;
+}
+
+header #logo{
+    color: blueviolet;
+    float: left;
+    
+}
+nav{
+    float: right;
+}
+
+ul li a{
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+    padding: 2.5px;
+    margin: 5px;
+}
+
+ul li{
+    display: inline;
+    list-style: none;
+    
+}
+
+li a:hover{
+    background-color: grey;
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+}
+
+#current a{
+    background-color: blueviolet;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.clr{
+    clear: both;
+}
+
+.boxes{
+    width: 80%;
+    margin: 20px 150px;
+    
+}
+
+.box{
+    float: left;
+    border: black 2px solid;
+    padding: 10px;
+    margin: 5px;
+    width: 300px;
+    height: 80px;
+    text-align: center;
+}
+
+.box:hover{
+    cursor: pointer;
+}
+
+footer{
+    border-top: black 2px solid;
+    text-align: center;
+    background-color: rgb(138, 141, 141);
+    padding: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.admission{
+    margin: 20px 100px;
+    width: 60%;
+    border: black solid 1px;
+    padding: 10px;   
+}
+
+.admission h3{
+    font-size: 1em;
+}
+
+.admission input{
+    border-radius: 5px;
+}
+
+.button{
+    padding: 10px;
+    color: white;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+#submit{
+    background-color: green;
+    border-radius: 10px;
+}
+
+#cancel{
+    background-color: red;
+    border-radius: 10px;
+}
+
+.button:active{
+    transform: translateY(4px);
+}
+
+select{
+    padding: 5px;
+}
+
+.container{
+    background-image: url('tsec.jpg');
+    min-height: 500px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    border-bottom: black 2px solid;
+}
+
+marquee{
+    color: blueviolet;
+    font-weight: bold;
+    padding: 5px;
+    border-bottom: 2px solid black;
+}
+
+#radio:hover{
+    cursor: pointer;
+}
