@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Color Changer</title>
+        <script src="main.js"></script>
+        <style>
+            div{
+                border: 1px solid black;
+                padding: 30px;
+                margin: 50px 200px;
+                width: 350px;
+                font-size: 1.2em;
+            }
+            td{
+                padding: 15px;
+                margin: 10px;                
+            }
+            select{
+                padding: 10px;
+            }
+            .submit{
+                border-radius: 5px;
+                background-color: rgb(243, 201, 15);
+                border: black 1px solid;
+                padding: 20px;
+            }
+
+        </style>
+    </head>
+    <body id="body">
+        <div>
+            <h2>Color Changer</h2>
+            <form action="" onsubmit="return colorChange()">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="">Background Color:</label>
+                        </td>
+                        <td>
+                            <select name="bgcolor" id="bgcolor">
+                                <option value="white">Select</option>
+                                <option value="#e98536">#e98536</option>
+                                <option value="#f1651a">#f1651a</option>
+                                <option value="#b8e936">#b8e936</option>
+                                <option value="#404445">#404445</option>                         
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Text Color:</label>
+                        </td>
+                        <td>
+                            <select name="fgcolor" id="fgcolor">
+                                <option value="black">Select</option>
+                                <option value="#e5237e">#e5237e</option>
+                                <option value="#36e990">#36e990</option>
+                                <option value="#2355e5">#2355e5</option>
+                                <option value="#23e5ad">#23e5ad</option>
+                                <option value="#e2e523">#e2e523</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" class="submit" value="Change Color">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
