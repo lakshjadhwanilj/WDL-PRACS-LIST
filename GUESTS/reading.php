@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>CRUD FUNCTIONS | READ</title>
+        <title>GUESTS | READ</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
