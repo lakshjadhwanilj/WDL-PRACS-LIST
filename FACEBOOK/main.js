@@ -42,7 +42,7 @@ function validate(){
         document.getElementById('pass').style.color = "green";       
     }
 
-    var email_reg = /^([a-z A-Z 0-9 \. -]+)@([a-z A-Z 0-9 -]+).([a-z]{2,5})(.[a-z](2-8))?$/;
+    var email_reg = /^([a-z A-Z 0-9 \. -]+)@([a-z A-Z 0-9 -]+)\.([a-z]{2,5})(\.[a-z]{2,8})?$/;
 
     if(email_reg.test(email)) {
         document.getElementById('mail').innerHTML = "Valid!";
