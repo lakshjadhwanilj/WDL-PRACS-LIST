@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CRUD FUNCTIONS</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2>CREATE GUEST DATA</h2>
+            <form action="include/create.php" method="POST">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="">Guest Name:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="name" id="name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Guest Mobile No.:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="mobile" id="mobile">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Guest Gender:</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="gender" value="Male">Male
+                            <input type="radio" name="gender" value="Female">Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Guest Address:</label>
+                        </td>
+                        <td>
+                            <textarea name="address" id="address" cols="30" rows="10"></textarea>
+                        </td>
+                    </tr>
+                </table>
+                <input type="submit" class="submit" name="add" id="add" value="CREATE DATA">
+                <input type="submit" class="submit" name="read" id="read" value="READ DATA">
+                <input type="submit" class="submit" name="update" id="update" value="UPDATE DATA">
+            </form>
+        </div>
+    </body>
+</html>
