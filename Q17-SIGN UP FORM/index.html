@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SIGN UP FORM</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h2>SIGN UP FORM</h2>
+            <form action="" onsubmit="return validate()">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="">Name:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="name" id="name">
+                        </td>
+                        <td>
+                            <p id="name-text"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Age:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="age" id="age">
+                        </td>
+                        <td>
+                            <p id="age-text"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Address:</label>
+                        </td>
+                        <td>
+                            <textarea name="address" id="address" cols="20" rows="5"></textarea>
+                        </td>
+                        <td>
+                            <p id="address-text"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">City:</label>
+                        </td>
+                        <td>
+                            <select name="cities" id="cities">
+                                <option value="Select">Select</option>
+                                <option value="Mumbai">Mumbai</option>
+                                <option value="Delhi">Delhi</option>
+                                <option value="Hyderabad">Hyderabad</option>
+                                <option value="Chennai">Chennai</option>
+                                <option value="Banglore"></option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Mobile No.:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="mobile" id="mobile">
+                        </td>
+                        <td>
+                            <p id="mobile-text"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Username:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="username" id="username">
+                        </td>
+                        <td>
+                            <p id="username-text"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Password:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="password" id="password">
+                        </td>
+                        <td>
+                            <p id="pass-text"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Email:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="email" id="email">
+                        </td>
+                        <td>
+                            <p id="email-text"></p>
+                        </td>
+                    </tr>                    
+                </table>
+                <input type="submit" class="submit" name="submit" id="submit" value="SUBMIT">
+            </form>
+        </div>
+    </body>
+</html>
