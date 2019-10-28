@@ -1,1 +1,3 @@
 Exp Number 24
+Here billing.php is the output file containing the total bill. 
+Also after generating bill if you go back to index.html the session is destroyed, so bill amount is again $0.
