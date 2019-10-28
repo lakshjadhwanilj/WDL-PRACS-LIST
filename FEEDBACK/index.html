@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FEEDBACK FORM</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2>FEEDBACK</h2>
+            <p>Please provide your feedback below.</p>
+            <form action="include/create.php" method="POST">
+                <table cellpadding="2.5px" cellspacing="2.5px">
+                    <tr>
+                        <td>
+                            <label for="">How do you rate your overall experience?</label>
+                        </td>                        
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="rate" value="Bad">Bad
+                            <input type="radio" name="rate" value="Average">Average
+                            <input type="radio" name="rate" value="Good">Good
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Comments:</label>
+                        </td>                        
+                    </tr>
+                    <tr>
+                        <td>
+                            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Your Comments"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Your Name:</label>
+                            <span style="margin:45px;"></span>
+                            <label for="">Email:</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" name="name" id="name">    
+                            <span style="margin:15px;"></span>                    
+                            <input type="text" name="email" id="email">
+                        </td>
+                    </tr>                    
+                    <tr>
+                        <td>
+                            <input type="submit" class="submit" name="add" id="add" value="POST">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" class="submit" name="read" id="read" value="READ">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

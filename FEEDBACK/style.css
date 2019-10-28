@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(224, 220, 220);
+    
+}
+
+.container{
+    padding: 5px 20px;
+    margin: 50px 350px;
+    border: black 2px solid;
+    width: 340px;
+    background-color: rgb(229, 229, 233);
+}
+
+.submit{
+	border-radius: 5px;
+	background-color: rgb(243, 201, 15);
+    border: black 1px solid;
+    padding: 10px 150px;
+}
+
