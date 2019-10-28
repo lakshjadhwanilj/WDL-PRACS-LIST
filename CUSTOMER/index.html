@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ADD CUSTOMER DETAILS</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2>ADD CUSTOMER DETAILS</h2>
+            <form action="include/create.php" method="POST">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="">Name:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="name" placeholder="John Smith">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Mobile Number:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="mobile" placeholder="1234567890">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Email:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="email" placeholder="john@domain.com">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Address</label>
+                        </td>
+                        <td>
+                            <textarea name="address" id="address" cols="20" rows="5"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Password:</label>
+                        </td>
+                        <td>
+                            <input type="password" name="pass">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" class="submit" name="add" value="ADD RECORD">
+                        </td>
+                        <td>
+                            <input type="submit" class="submit" name="read" value="VIEW RECORD">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
