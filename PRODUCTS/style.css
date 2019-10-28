@@ -1,0 +1,68 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(224, 220, 220);
+}
+
+.container{
+    padding: 20px;
+    margin: 50px 100px;
+    border: black 2px solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(185, 185, 190);
+    height: 500px;
+    text-align: center;
+}
+
+.boxes{
+    margin: 20px 50px;
+}
+
+.box{
+    float: left;
+    border: black 2px solid;
+    padding: 10px;
+    margin: 5px;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+}
+
+.box:hover{
+    cursor: pointer;
+}
+
+h4{
+    display: inline;
+}
+
+.price{
+    width: 25px;
+}
+
+.price{
+    pointer-events:none;
+}
+
+.submit{
+	border-radius: 5px;
+	background-color: rgb(88, 206, 98);
+    border: black 1px solid;
+    padding: 10px;
+}
+
+table{
+    margin: 0 300px;
+}
+
+table tr{
+    margin: 10px;
+    padding: 10px;
+}
+
+td, th{
+    margin: 10px;
+    padding: 10px 50px;
+    
+}
