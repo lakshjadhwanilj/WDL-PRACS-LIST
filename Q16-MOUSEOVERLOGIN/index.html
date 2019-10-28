@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LOGIN FORM</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h2>Login Form</h2>
+            
+            <form action="" onsubmit="return validate()">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="">Username:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="username" class="input" id="username" onmouseover="newColor('username')" onmouseout="oldColor('username')">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Email:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="email" id="email" class="input" onmouseover="newColor('email')" onmouseout="oldColor('email')">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Password:</label>
+                        </td>
+                        <td>
+                            <input type="password" name="pass" id="pass" class="input" onmouseover="newColor('pass')" onmouseout="oldColor('pass')">        
+                        </td>
+                        <td>
+                            <p id="passtext"></p>
+                        </td>
+                    </tr>                    
+                    <tr>
+                        <td>
+                            <input type="submit" name="submit" id="submit" value="SUBMIT">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
