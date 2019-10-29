@@ -1,0 +1,25 @@
+.container{
+    padding: 25px;
+    margin: 25px 200px;
+    border: black 2px solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(185, 185, 190);
+    width: 40%;
+    text-align: center;
+}
+table{
+    margin: 10px 60px;
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+    width: 50px;
+}
+
+.button{
+	border-radius: 5px;
+	background-color: rgb(88, 206, 98);
+    border: black 1px solid;
+    margin: 10px;
+    width: 80px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GUESS THE CODE GAME</title>
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2>Guess The Code:</h2>
+            <h3>O - Correct Digit & Correct Place</h3>
+            <h3>X - Wrong Digit</h3>
+            <h3>V - Correct Digit n Wrong Place</h3>
+            <form action="">
+                <table align="center">
+                    <tr>
+                        <td>
+                            <input type="number" class="ans" id="one" name="one">      
+                        </td>
+                        <td>
+                            <input type="number" class="ans" id="two" name="two">      
+                        </td>
+                        <td>
+                            <input type="number" class="ans" id="three" name="three">  
+                        </td>
+                        <td>
+                            <input type="number" class="ans" id="four" name="four">           
+                        </td>  
+                        <td>
+                            <label for="" id="attempts">5</label>
+                            <label for="">attempts left</label>
+                        </td>                  
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="op" class="val" id="one-text"></label>
+                        </td>
+                        <td>
+                            <label for="op" class="val" id="two-text"></label>
+                        </td>
+                        <td>
+                            <label for="op" class="val" id="three-text"></label>
+                        </td>
+                        <td>
+                            <label for="op" class="val" id="four-text"></label>
+                        </td>
+                    </tr>                    
+                </table>
+                <input type="submit" class="button" id="guess-b" value="GUESS" onclick="return guess()">            
+                <input type="submit" class="button" id="shuffle-b" value="SHUFFLE" onclick="return shuffle()">
+                <h2 id="luck"></h2>
+            </form>
+            
+        </div>
+    </body>
+</html>
