@@ -1,0 +1,8 @@
+<!DOCTYPE cd_collection
+[
+    <!ELEMENT cd(TITLE, COMPANY, PRICE, YEAR)>
+    <!ELEMENT TITLE (#PCDATA)>
+    <!ELEMENT COMPANY (#PCDATA)>
+    <!ELEMENT PRICE (#PCDATA)>
+    <!ELEMENT YEAR (#PCDATA)>
+]>
