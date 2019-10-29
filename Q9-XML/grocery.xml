@@ -1,3 +1,9 @@
+<!--# Kindly note that XML files are supported only by internet explorer, firefox doesn't support the xsl stylesheet <br />
+To run in lab pc do the following:
+1. On cmd - $php -S localhost:5000
+2. On broswer - http://localhost:5000/FILENAME.xml-->
+
+
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="grocery.xsl"?>
 <!DOCTYPE grocery_collection SYSTEM "grow.dtd">
