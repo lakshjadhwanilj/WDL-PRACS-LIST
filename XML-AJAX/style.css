@@ -1,0 +1,28 @@
+body{
+    font-family:Arial;
+    font-size:12pt;
+    background-color:pink;
+    color:black;
+    text-align: center;
+}
+h2{
+    margin-top:40px;
+}
+td,th{
+    border: 2px solid black;
+    border-collapse:collapse;
+    padding:15px;
+    background-color:lightgreen;
+    color:black;
+}
+table{
+    margin:auto;
+    margin-top:50px;
+}
+
+button{
+    border-radius: 5px;
+    background-color: rgb(88, 206, 98);
+    border: black 1px solid;
+    padding: 15px;
+}

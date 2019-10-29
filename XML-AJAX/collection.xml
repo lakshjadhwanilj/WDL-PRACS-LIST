@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cd_collection.xsl"?>
+<!DOCTYPE cd_collection SYSTEM "cd.dtd">
+<cd_collection>
+    <cd>
+        <TITLE>Avengers: Infinity War</TITLE>
+        <COMPANY>Marvel</COMPANY>
+        <PRICE>1500</PRICE>
+        <YEAR>2018</YEAR>
+    </cd>
+    <cd>
+        <TITLE>Avengers: End Game</TITLE>
+        <COMPANY>Marvel</COMPANY>
+        <PRICE>2000</PRICE>
+        <YEAR>2019</YEAR>
+    </cd>
+    <cd>
+        <TITLE>Joker</TITLE>
+        <COMPANY>Warner Bros - DC</COMPANY>
+        <PRICE>2500</PRICE>
+        <YEAR>2019</YEAR>
+    </cd>
+    <cd>
+        <TITLE>Aquaman</TITLE>
+        <COMPANY>Warner Bros - DC</COMPANY>
+        <PRICE>1500</PRICE>
+        <YEAR>2018</YEAR>
+    </cd>
+</cd_collection>
