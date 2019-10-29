@@ -3,3 +3,4 @@ This repository contains solution to all the questions given for WDL practical e
 Experience the College website here: http://praccollege.surge.sh/ <br />
 Experience the Facebook like login page here: http://pracfacebook.surge.sh/ <br />
 Experience the Color Changer here: http://praccolorchanger.surge.sh/ <br />
+Experience the Toy Bill Generator here: http://gamebill.surge.sh/ <br />
