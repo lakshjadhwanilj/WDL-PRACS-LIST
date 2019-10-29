@@ -1,6 +1,7 @@
 # WDL-PRACS-LIST
 This repository contains solution to all the questions given for WDL practical exam. 😉<br />
 Experience the Guess The Code Game here: http://guessthecode.surge.sh/ <br />
+Note that you need to shuffle first to generate random numbers.
 Experience the College website here: http://praccollege.surge.sh/ <br />
 Experience the Facebook like login page here: http://pracfacebook.surge.sh/ <br />
 Experience the Color Changer here: http://praccolorchanger.surge.sh/ <br />
