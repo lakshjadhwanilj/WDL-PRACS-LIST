@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JQUERY FORM</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h2>JQUERY FORM</h2>
+            <form action="">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="">First Name:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="fname" id="fname">
+                        </td>
+                        <td>
+                            <p id="fname-text"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Last Name:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="lname" id="lname">
+                        </td>
+                        <td>
+                            <p id="lname-text"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Gender:</label>
+                        </td>
+                        <td>
+                            <select name="gender" id="gender">
+                                <option value="0">Select</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                        </td>
+                        <td>
+                            <p id="gender-text"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Address:</label>
+                        </td>
+                        <td>
+                            <textarea name="address" id="address" cols="20" rows="5"></textarea>
+                        </td>
+                        <td>
+                            <p id="address-text"></p>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <label for="">Mobile No.:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="mobile" id="mobile">
+                        </td>
+                        <td>
+                            <p id="mobile-text"></p>
+                        </td>
+                    </tr>                    
+                    <tr>
+                        <td>
+                            <label for="">Email:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="email" id="email">
+                        </td>
+                        <td>
+                            <p id="email-text"></p>
+                        </td>
+                    </tr>                    
+                </table>
+                
+                <input type="submit" class="submit" name="submit" id="submit" value="SUBMIT">
+            </form>
+        </div>
+    </body>
+</html>

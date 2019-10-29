@@ -1,0 +1,31 @@
+.container{
+    padding: 25px;
+    margin: 25px 200px;
+    border: black 2px solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(185, 185, 190);
+    width: 40%;
+}
+
+table tr{
+    margin: 5px;
+    padding: 5px;
+}
+
+td{
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+input, select{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.submit{
+	border-radius: 5px;
+	background-color: rgb(88, 206, 98);
+    border: black 1px solid;
+    margin: 10px;
+}
