@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="grocery.xsl"?>
+<!DOCTYPE grocery_collection SYSTEM "grow.dtd">
+<grocery_collection>
+    <grocery>
+        <ITEM>Oranges</ITEM>
+        <QUANTITY>1kg</QUANTITY>
+        <PRICE>150</PRICE>
+        <BRAND>TSEC</BRAND>
+    </grocery>
+    <grocery>
+        <ITEM>Melon</ITEM>
+        <QUANTITY>1kg</QUANTITY>
+        <PRICE>200</PRICE>
+        <BRAND>TSEC</BRAND>
+    </grocery>
+    <grocery>
+        <ITEM>Strawberry</ITEM>
+        <QUANTITY>2kg</QUANTITY>
+        <PRICE>250</PRICE>
+        <BRAND>TSEC</BRAND>
+    </grocery>
+    <grocery>
+        <ITEM>Banana</ITEM>
+        <QUANTITY>1kg</QUANTITY>
+        <PRICE>150</PRICE>
+        <BRAND>TSEC</BRAND>
+    </grocery>
+</grocery_collection>

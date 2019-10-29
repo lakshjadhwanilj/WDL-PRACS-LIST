@@ -1,0 +1,8 @@
+<!DOCTYPE grocery_collection
+[
+    <!ELEMENT grocery(ITEM, QUANTITY, PRICE, BRAND)>
+    <!ELEMENT ITEM (#PCDATA)>
+    <!ELEMENT QUANTITY (#PCDATA)>
+    <!ELEMENT PRICE (#PCDATA)>
+    <!ELEMENT BRAND (#PCDATA)>
+]>
