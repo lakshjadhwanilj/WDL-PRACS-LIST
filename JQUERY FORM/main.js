@@ -81,5 +81,6 @@ function validate() {
             $("#email-text").css("color","red");
             $("#email-text").text("Enter a valid Email.");
         }
+    alert("First Name: "+ fname + " Last Name: " + lname + " Gender: " + gender + " Address: " + address + " Mobile: " + mobile + " Email: " + email);
     return false;
 }
