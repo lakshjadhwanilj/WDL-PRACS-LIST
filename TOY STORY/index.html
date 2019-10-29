@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GAME FACTORY</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h2>GAME FACTORY</h2>
+            <form action="">
+                <table cellspacing="15px">
+                    <tr>
+                        <th>
+                            <label for="name">Games</label>
+                        </th>
+                        <th>
+                            <label for="quantity">Quantity</label>
+                        </th>
+                        <th>
+                            <label for="price">Rent Per Piece</label>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select name="name" id="name" onchange="changeGame()">
+                                <option value="0">Select</option>
+                                <option value="pubg">Player Unknown Battle Ground: PUBG</option>
+                                <option value="fortnite">Fortnite</option>
+                                <option value="cod">Call of Duty: Mordern Warfare</option>
+                                <option value="gta">Grand Theft Auto V</option>
+                            </select>
+                            
+                        </td>
+                        <td>
+                            <input type="number" id="quantity" value="0">
+                        </td>
+                        <td>
+                            <label for="rent" id="rent">₹ 0</label>
+                        </td>
+                    </tr>
+                    
+                </table>
+                <input type="submit" onclick="return generateBill()" value="GENERATE BILL" class="submit" style="display: inline;">
+                <h3 id="bill-text" style="display: inline; margin-left: 170px;">TOTAL BILL = ₹ 0</h3>
+            </form>
+        </div>
+    </body>
+</html>
