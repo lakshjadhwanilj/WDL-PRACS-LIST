@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jQuery Sample</title>
+        <style>
+            body{
+                width: 500px;
+                margin: 50px 100px;
+                padding: 15px;
+                border: black 2px solid;
+            }
+            p, button{
+                padding: 15px;
+            }
+        </style>
+        <script src = "https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $("button").click(function(){
+                    $("div p").css("background-color","blue");
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <h1>abc</h1>
+        <div>
+            <p>--1st Para--</p>
+            <p>--2nd Para--</p>
+        </div>
+        <h1>xyz</h1>
+        <p>--3rd Para</p>
+        <button>CHANGE COLOR</button>
+    </body>
+</html>
